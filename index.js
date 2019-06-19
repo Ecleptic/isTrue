@@ -1,0 +1,16 @@
+export const is = function(x) {
+	let something
+	let obj = {
+		roughly() {
+			console.log('probably')
+			something = x
+			return this
+		},
+		isTrue() {
+			something = x
+			return something
+		}
+	}
+
+	return obj
+}
