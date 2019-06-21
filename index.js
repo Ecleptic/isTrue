@@ -1,3 +1,5 @@
+const is = require('is-thirteen')
+
 export const is = function(x) {
 	let something
 	let obj = {
@@ -9,6 +11,9 @@ export const is = function(x) {
 		isTrue() {
 			something = x
 			return something
+		},
+		isThirteen() {
+			something = is(x).thirteen()
 		}
 	}
 

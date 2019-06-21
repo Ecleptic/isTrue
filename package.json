@@ -1,6 +1,6 @@
 {
 	"name": "ecleptic-istrue",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "Checks is true",
 	"repository": "https://github.com/Ecleptic/isTrue",
 	"main": "index.js",
@@ -8,5 +8,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Cameron Green",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"is-thirteen": "^2.0.0"
+	}
 }
